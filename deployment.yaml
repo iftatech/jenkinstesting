@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: podinfo
-        image: gzlkhan/furiouswheel:{{BUILD_NUMBER}}
+        image: ifta4766/furiouswheel:{{BUILD_NUMBER}}
         imagePullPolicy: Always
         ports:
         - containerPort: 4444
